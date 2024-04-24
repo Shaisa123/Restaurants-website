@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300..700&display=swap');
+body{
+    font-family: "spline sans" , sans-serif;
+    color: #777;
+    line-height: 1.7;
+}
+h1,h2.h3,h4,h5,h6{
+    font-weight: 600;
+    color: #222;
+}
+img{
+    min-height: 100%;
+}
+.btn{
+    border-radius: 3px solid;
+    padding: 10px 30px;
+}
+.btn-brand{
+    background-color: #f58d17;
+    color: #fff;
+    font-weight: 500;
+    border-color: #f58d17;
+}
+.btn-brand  :hover{
+    border-color: #ca720d;
+    background-color: #ca720d;
+    color: #fff;
+    background: #f58d17;
+
+}
+.nav-link{
+    color: #000;
+}
+:hover a.nav-link{
+    color: #f58d17;
+}
+.bg-cover{
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+.carousel-caption{
+    position: absolute;
+    right: 15%;
+    bottom: 1.25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+}
+.carousel-caption{
+    bottom: 22px;
+    z-index: 2;
+}
+
+/* slider */
+.col-lg-8{
+    padding-top: 100px;
+}
+.slide-1{
+    background-image: url("https://img.freepik.com/free-photo/succulent-grilled-kebabs-served-slate-with-fresh-herbs-spices_91128-4519.jpg?t=st=1713335159~exp=1713338759~hmac=fb2a7fa68b98d0b468a985728c3ceeda02c27794171d262750eace731996fd37&w=740");
+}
+.slide-2{
+    background-image: url("https://img.freepik.com/premium-photo/mutton-biryani-served-golden-dish-isolated-dark-background-side-view-indian-food_636537-57039.jpg?w=740");
+}
+.slide-3{
+    background-image: url("https://ideogram.ai/api/images/direct/_Ro5AB1fQsu0UMJddb0n-g.png");
+
+}
+.carousel-control-prev-icon
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 40px;
+    height: 70px;
+    margin: auto;
+}
+.carousel-control-prev{
+
+  background-color: rgba(0, 0, 0, 0.6);
+    width: 40px;
+    height: 70px;
+    margin: auto;
+}
+section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.shadow-on-hover{
+    transition: all 0.4s;
+}
+.shadow-on-hover :hover{
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+
+}
+
+/* section  about*/
+
+ #about .divider{
+    width: 60px;
+}
+.intro-text{
+    margin-bottom: 40px;
+    text-align: center;
+}
+.intro-text p{
+    max-width: 500px;
+    margin: 16px auto 0 auto;
+} 
+/* menu */
+.nav-pills .nav-link{
+    background-color: #fff;
+    margin-left: 8px;
+    margin-right: 8px;
+    color: #222;
+    border-radius: 100px;
+    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.4);
+}
+.nav-pills .nav-link.active{
+    background-color: #f58d17;
+    color: #fff;
+}
+.menu-item .star{
+    color: #f58d17;
+
+}
+#features{
+    background:  url(Untitled\ design\ \(10\).png);
+}
+.features{
+    /* border: 2px solid; */
+    border: none;
+}
+.feature .feature-icon{
+    width: 40px;
+    height: 100px;
+    background-color: #f58d17;
+    color: #fff;
+    font-size: 28px;
+    display: inline-grid;
+    align-content: center;
+    text-align: center;
+}
+.icon{
+    background-color: #f58d17;
+}
+.card {
+    --background: linear-gradient(to left, #f7ba2b 0%, #ea5358 100%);
+    width: 190px;
+    height: 254px;
+    padding: 5px;
+    border-radius: 1rem;
+    overflow: visible;
+    background: #f7ba2b;
+    background: var(--background);
+    position: relative;
+    z-index: 1;
+   }
+   
+   .card::after {
+    position: absolute;
+    content: "";
+    top: 30px;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    transform: scale(0.8);
+    filter: blur(25px);
+    background: #f7ba2b;
+    background: var(--background);
+    transition: opacity .5s;
+   }
+   
+   .card-info {
+    --color: #181818;
+    background: var(--color);
+    color: var(--color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    border-radius: .7rem;
+   }
+   
+   .card .title {
+    font-weight: bold;
+    letter-spacing: .1em;
+   }
+   
+   /*Hover*/
+   .card:hover::after {
+    opacity: 0;
+   }
+   
+   .card:hover .card-info {
+    color: #f7ba2b;
+    transition: color 1s;
+   }
+   
+.team-member img{
+    max-width: 140px;
+    box-shadow: -5px -5px 0 #f58d17;
+    border-radius: 100px;
+}
+#reviews{
+    background: url(Untitled\ design\ \(10\).png);
+}
+.review img{
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+}
+.team-member img{
+    border-radius: 50%;
+
+}
+.review .quote-icon{
+    font-size: 20px;
+    color: #f58d17;
+    line-height: 1;
+}
+.review .stars{
+    color: #f58d17;
+}
+.btn1{
+    margin-left: 50%;
+}
+.container1{
+    margin-left: 8%;
+
+}
+
+
+
+/* FOOTER STYLES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.page-footer {
+    position: fixed;
+    right: 0;
+    bottom: 50px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    z-index: 1;
+  }
+  
+  .page-footer a {
+    display: flex;
+    margin-left: 4px;
+  }

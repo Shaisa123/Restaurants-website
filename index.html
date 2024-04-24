@@ -1,0 +1,836 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- nav bar -->
+  <nav class="navbar navbar-expand-lg bg-white shadow py-3 sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img
+          src="a-sleek-and-modern-restaurant-logo-featuring-the-n-10HwPet9SXCVJVfpbDl_9g-I_ZgcJUxQ-OG0Ls0sySuzA-removebg-preview.png"
+          height="100px" width="100px">
+      </a>
+
+      <div class="collapse navbar-collapse  justify-content-center" id="navbarNav ">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#Breakfast">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#menu">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#features">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#team">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Reservation">Reservation</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Blog">Blog</a>
+          </li>
+        </ul>
+      </div>
+      <a href="#" class="btn btn-brand">Order Online</a>
+    </div>
+  </nav>
+  <!-- slider  -->
+  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item text-center justify-content-center bg-cover vh-100  active slide-1">
+        <div class="container vh-100  d-flex align-items-center justify-content-center">
+          <div class="row justify-content-center">
+            <div class="col-lg-8  justify-content-center align-item-center">
+              <h6 class="text-white">Welcome to Querty </h6>
+              <h1 class="display-1 fw-bold text-white">char-grilled and flavor-filled</h1>
+              <a href="#" class="btn btn-brand">Reservation</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item text-center bg-cover vh-100  slide-2">
+        <div class="container h-100 d-flex align-items-center justify-content-center">
+          <div class="row justify-content-center align-item-center">
+            <div class="col-lg-8  justify-content-center align-item-center">
+              <h6 class="text-white">welcome to Querty </h6>
+              <h1 class="display-1 fw-bold text-white">char-grilled and flavor-filled</h1>
+              <a href="#" class="btn btn-brand">Reservation</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item text-center bg-cover vh-100 slide-3">
+        <div class="container h-100 d-flex align-items-center justify-content-center">
+          <div class="row justify-content-center align-items-center">
+            <div class="col-lg-8  mt-1 justify-content-center align-item-center">
+              <h6 class="text-white">welcome to Querty </h6>
+              <h1 class="display-1 fw-bold text-white">char-grilled and flavor-filled</h1>
+              <a href="#" class="btn btn-brand">Reservation</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <!-- about section -->
+      <div class="container my-5">
+        <div class="row">
+          <div class="col-lg-6">
+            <img class="w-100 shadow" src="Untitled design (28).png">
+          </div>
+          <div class="col-lg-6">
+            <div class="p-5 ">
+              <h1 class="display-4"><b> About Us </b></h1>
+              <p class="lead">Our dedicated staff strives to provide impeccable service, making you feel right at home
+                from the moment you step through our doors. Whether you're celebrating a special occasion, enjoying a
+                romantic dinner for two, or simply grabbing a quick bite with friends, we're here to make your dining
+                experience unforgettable. </p>
+              <a href="#" class="btn btn-brand">Read More</a>
+            </div>
+          </div>
+        </div>
+        <!-- </section> -->
+        <section>
+          <div class="container mb-5">
+            <div class="row">
+              <div class="col-12 intro-text">
+                <h1>Explore our menu</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione molestiae, dolorem ipsam doloribus
+                  error, atque commodi incidunt officiis quos et expedita inventore deserunt eligendi voluptates, id
+                  velit
+                  unde nihil laboriosam?</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- tabs -->
+          <div class="container">
+            <ul class="nav nav-pills mb-5 justify-content-center" id="pills-tab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
+                  type="button" role="tab" aria-controls="pills-home" aria-selected="true">All items</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
+                  type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Breakfast</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact"
+                  type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Lunch</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-about-tab" data-bs-toggle="pill" data-bs-target="#pills-about"
+                  type="button" role="tab" aria-controls="pills-about" aria-selected="false">Dishes</button>
+              </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+              <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
+                tabindex="0">
+                <div class="row gy-4">
+                  <div class="col-lg-3 .col-sm-6">
+                    <div class="menu-item bg-white shadow-on-hover">
+                      <img src="cup-hot-cappuccino-chocolate-croissant-with-breakfast.jpg" height="120px" width="260px">
+                      <div class="menu-item-content">
+                        <div>
+                          <span>
+                            Rated(5.4)
+                          </span>
+                          <span class="star">
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-half-fill"></i>
+                          </span>
+
+                        </div>
+                        <h5 class="mt-1 mb-2 text-center">Classic Eggs Benedict</h5>
+                        <p class="small text-center">Start Your Day Right with Our Delicious Breakfast
+                          Creations.Breakfast
+                          was experience at our restaurant, where and passion.We have something to satisfy every
+                          craving.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 .col-sm-6">
+                    <div class="menu-item bg-white shadow-on-hover">
+                      <img src="grilled-bbq-steak-sandwich-with-cheese-vegetables-together-with-french-fries.jpg"
+                        height="120px" width="260px">
+
+                      <div class="menu-item-content">
+                        <div>
+                          <span>
+                            Rated(5.4)
+                          </span>
+                          <span class="star">
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-half-fill"></i>
+                          </span>
+
+                        </div>
+                        <h5 class="mt-1 mb-2 text-center">Chicken Alfredo Pasta</h5>
+                        <p class="small text-center">Start Your Day Right with Our Delicious Breakfast
+                          Creations.Breakfast
+                          was experience at our restaurant, where and passion.We have something to satisfy every
+                          craving.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 .col-sm-6">
+                    <div class="menu-item bg-white shadow-on-hover">
+                      <img src="hearty-beef-okra-stew-casserole-wooden-table-top-view-traditional-african-food.jpg"
+                        height="120px" width="260px">
+                      <div class="menu-item-content">
+                        <div>
+                          <span>
+                            Rated(5.4)
+                          </span>
+                          <span class="star">
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-half-fill"></i>
+                          </span>
+
+                        </div>
+                        <h5 class="mt-1 mb-2 text-center">Grilled Ribeye Steak</h5>
+                        <p class="small text-center">Start Your Day Right with Our Delicious Breakfast
+                          Creations.Breakfast
+                          was experience at our restaurant, where and passion.We have something to satisfy every craving
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 .col-sm-6">
+                    <div class="menu-item bg-white shadow-on-hover">
+                      <img src="english-breakfast-fried-eggs-sausages-zucchini-sweet-peppers.jpg" height="120px"
+                        width="260px">
+
+                      <div class="menu-item-content">
+                        <div>
+                          <span>
+                            Rated(5.4)
+                          </span>
+                          <span class="star">
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-half-fill"></i>
+                          </span>
+
+                        </div>
+                        <h5 class="mt-1 mb-2 text-center">Belgian Waffles with Fresh Berries</h5>
+                        <p class="small text-center">Start Your Day Right with Our Delicious Breakfast
+                          Creations.Breakfast
+                          was experience at our restaurant, where and passion.We have something to satisfy every craving
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 .col-sm-6">
+                    <div class="menu-item bg-white shadow-on-hover">
+                      <img src="photo-bowl-delicious-chicken-biriyani-pot_1025753-27277.jpg" height="120px"
+                        width="260px">
+
+                      <div class="menu-item-content">
+                        <div>
+                          <span>
+                            Rated(5.4)
+                          </span>
+                          <span class="star">
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-half-fill"></i>
+                          </span>
+
+                        </div>
+                        <h5 class="mt-1 mb-2 text-center">Traditional Chicken Biryani</h5>
+                        <p class="small text-center">Start Your Day Right with Our Delicious Breakfast
+                          Creations.Breakfast
+                          was experience at our restaurant, where and passion.We have something to satisfy every craving
+                        </p>
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 .col-sm-6">
+                    <div class="menu-item bg-white shadow-on-hover">
+                      <img src="napkin-near-chicken-vegetables.jpg" height="120px" width="260px">
+                      <div class="menu-item-content">
+                        <div>
+                          <span>
+                            Rated(5.4)
+                          </span>
+                          <span class="star">
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-half-fill"></i>
+                          </span>
+
+                        </div>
+                        <h5 class="mt-1 mb-2 text-center">Chicken and Vegetable Skewers</h5>
+                        <p class="small text-center">Start Your Day Right with Our Delicious Breakfast
+                          Creations.Breakfast
+                          was experience at our restaurant, where and passion.We have something to satisfy every craving
+                        </p>
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 .col-sm-6">
+                    <div class="menu-item bg-white shadow-on-hover">
+                      <img src="mixed-fried-meat-with-pomegranate-sauce (1).jpg" height="120px" width="260px">
+                      <div class="menu-item-content">
+                        <div>
+                          <span>
+                            Rated(5.4)
+                          </span>
+                          <span class="star">
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-half-fill"></i>
+                          </span>
+
+                        </div>
+                        <h5 class="mt-1 mb-2 text-center">Chicken Alfredo Pasta with Cream Chees</h5>
+                        <p class="small text-center">Start Your Day Right with Our Delicious Breakfast
+                          Creations.Breakfast
+                          was experience at our restaurant, where and passion.We have something to satisfy every craving
+                        </p>
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 .col-sm-6">
+                    <div class="menu-item bg-white shadow-on-hover">
+                      <img src="cup-hot-cappuccino-chocolate-croissant-with-breakfast.jpg" height="120px" width="260px">
+                      <div class="menu-item-content">
+                        <div>
+                          <span>
+                            Rated(5.4)
+                          </span>
+                          <span class="star">
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-half-fill"></i>
+                          </span>
+
+                        </div>
+                        <h5 class="mt-1 mb-2 text-center">Belgian Waffles with Fresh Berries</h5>
+                        <p class="small text-center">Start Your Day Right with Our Delicious Breakfast
+                          Creations.Breakfast
+                          was experience at our restaurant, where and passion.We have something to satisfy every craving
+                        </p>
+
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+              <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"
+                tabindex="0">
+                <div class="row gy-4">
+                  <div class="col-lg-3 .col-sm-6">
+                    <div class="menu-item bg-white shadow-on-hover">
+                      <img
+                        src="top-view-fried-egg-with-tomato-fork-pan-plaid-cloth-bread-slices-bowl-tomatoes-red (1).jpg"
+                        height="120px" width="260px">
+                      <div class="menu-item-content">
+                        <div>
+                          <span>
+                            Rated(5.4)
+                          </span>
+                          <span class="star">
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-half-fill"></i>
+                          </span>
+
+                        </div>
+                        <h5 class="mt-1 mb-2 text-center">Breakfast Bowl with Quinoa, Eggs</h5>
+                        <p class="small text-center">Start Your Day Right with Our Delicious Breakfast
+                          Creations.Breakfast
+                          was experience at our restaurant, where and passion.We have something to satisfy every craving
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 .col-sm-6">
+                    <div class="menu-item bg-white shadow-on-hover">
+                      <img
+                        src="overhead-view-red-lipstick-food-purple-flower-wooden-table-photo-big-plate-with-tasty-salad-beans-standing-beside-glass-smoothie.jpg"
+                        height="120px" width="260px">
+                      <div class="menu-item-content">
+                        <div>
+                          <span>
+                            Rated(5.4)
+                          </span>
+                          <span class="star">
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-half-fill"></i>
+                          </span>
+
+                        </div>
+                        <h5 class="mt-1 mb-2 text-center">Breakfast Burrito Bowl</h5>
+                        <p class="small text-center">Start Your Day Right with Our Delicious Breakfast
+                          Creations.Breakfast
+                          was experience at our restaurant, where and passion.We have something to satisfy every craving
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 .col-sm-6">
+                    <div class="menu-item bg-white shadow-on-hover">
+                      <img src="fast-food-board-with-club-sandwiches-french-fries.jpg" height="120px" width="260px">
+                      <div class="menu-item-content">
+                        <div>
+                          <span>
+                            Rated(5.4)
+                          </span>
+                          <span class="star">
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-half-fill"></i>
+                          </span>
+
+                        </div>
+                        <h5 class="mt-1 mb-2 text-center">Sausage Breakfast Burrito</h5>
+                        <p class="small text-center">Start Your Day Right with Our Delicious Breakfast
+                          Creations.Breakfast
+                          was experience at our restaurant, where and passion.We have something to satisfy every craving
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 .col-sm-6">
+                    <div class="menu-item bg-white shadow-on-hover">
+                      <img src="english-breakfast-fried-eggs-sausages-zucchini-sweet-peppers.jpg" height="120px"
+                        width="260px">
+                      <div class="menu-item-content">
+                        <div>
+                          <span>
+                            Rated(5.4)
+                          </span>
+                          <span class="star">
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-half-fill"></i>
+                          </span>
+
+                        </div>
+                        <h5 class="mt-1 mb-2 text-center">Belgian Waffles with Fresh Berries</h5>
+                        <p class="small text-center">Start Your Day Right with Our Delicious Breakfast
+                          Creations.Breakfast
+                          was experience at our restaurant, where and passion.We have something to satisfy every craving
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 .col-sm-6">
+                    <div class="menu-item bg-white shadow-on-hover">
+                      <img src="fried-eggs-with-mushrooms-served-with-greens-sandwiches-cup-coffee.jpg" height="120px"
+                        width="260px">
+                      <div class="menu-item-content">
+                        <div>
+                          <span>
+                            Rated(5.4)
+                          </span>
+                          <span class="star">
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-half-fill"></i>
+                          </span>
+
+                        </div>
+                        <h5 class="mt-1 mb-2 text-center">Belgian Waffles with Fresh Berries</h5>
+                        <p class="small text-center">Start Your Day Right with Our Delicious Breakfast
+                          Creations.Breakfast
+                          was experience at our restaurant, where and passion.We have something to satisfy every craving
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 .col-sm-6">
+                    <div class="menu-item bg-white shadow-on-hover">
+                      <img src="cup-hot-cappuccino-chocolate-croissant-with-breakfast.jpg" height="120px" width="260px">
+                      <div class="menu-item-content">
+                        <div>
+                          <span>
+                            Rated(5.4)
+                          </span>
+                          <span class="star">
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-half-fill"></i>
+                          </span>
+
+                        </div>
+                        <h5 class="mt-1 mb-2 text-center">Belgian Waffles with Fresh Berries</h5>
+                        <p class="small text-center">Start Your Day Right with Our Delicious Breakfast
+                          Creations.Breakfast
+                          was experience at our restaurant, where and passion.We have something to satisfy every craving
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+        </section>
+        <section id="features">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 intro-text">
+                <h1 class="text-white">Explore our menu</h1>
+                <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione molestiae,
+                  dolorem
+                  ipsam doloribus
+                  error</p>
+                <a href="#" class="btn btn-brand mt-3">Read More</a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="team">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 intro-text">
+                <h1>Our team members</h1>
+                <p>Totam mollitia
+                  omnis corporis similique dicta tenetur excepturi, ducimus autem laudantium, quia maiores sapiente
+                  repudiandae consectetur voluptatibus?</p>
+              </div>
+            </div>
+            <div class="row mt-5">
+              <div class="col-lg-3 .col-sm-6">
+                <div class="team-members px-4 py-5 border shadow-on-hover text-center">
+                  <img src="Untitled design (20).png" height="100px" width="100px">
+                  <div class="team-member-content">
+                    <h4>Philippe Dubois</h4>
+                    <p class="mb-0 mt-4">Main Chef</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 .col-sm-6">
+                <div class="team-members px-4 py-5 border shadow-on-hover text-center">
+                  <img src="Untitled design (24).png" height="100px" width="100px">
+                  <div class="team-member-content">
+                    <h4>Alexander Nguyen </h4>
+                    <p class="mb-0 mt-4">Assistant</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 .col-sm-6">
+                <div class="team-members px-4 py-5 border shadow-on-hover text-center">
+                  <img src="Untitled design (20).png" height="100px" width="100px">
+                  <div class="team-member-content">
+                    <h4>Benjamin Lewis</h4>
+                    <p class="mb-0 mt-4">Manager</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 .col-sm-6">
+                <div class="team-members px-4 py-5 border shadow-on-hover text-center">
+                  <img src="Untitled design (24).png" height="100px" width="100px">
+
+                  <div class="team-member-content">
+                    <h4>William Thompson </h4>
+                    <p class="mb-0 mt-4">Expeditor</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- review -->
+        <section id="reviews" class="bg-cover">
+          <div class="container mt-3">
+            <div class="row">
+              <div class="col-12 intro-text">
+                <h1 class="text-white">Our cilent saying</h1>
+                <p class="text-white">we prioritize your needs with our From personalized assistance to swift resolution
+                  of inquiries, we are committed to ensuring your satisfaction every step of the way.</p>
+              </div>
+            </div>
+            <div id="carouselExample" class="carousel slide">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row justify-content-center">
+                    <div class="col-lg-8 bg-white">
+                      <div class="review p-5 text-center">
+                        <div class="quote-icon">
+                          <i class="ri-double-quotes-l" style="font-size: 70px;"></i>
+                          <p class="text-black">The hotel staff was incredibly attentive, the rooms were spacious and
+                            beautifully decorated, and the amenities exceeded our expectations. We can't wait to come
+                            back
+                            for another stay.</p>
+                          <div class="person">
+                            <img src="Untitled design (27).png" height="100px" width="100px">
+                            <h4 class="mt-2">Ashley Williams</h4>
+                            <div>
+                              <span class="stars">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-half-fill"></i>
+                            </div>
+
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row justify-content-center">
+                    <div class="col-lg-8 bg-white">
+                      <div class="review p-5 text-center">
+                        <div class="quote-icon">
+                          <i class="ri-double-quotes-l" style="font-size: 70px;"></i>
+                          <p class="text-black">The hotel staff was incredibly attentive, the rooms were spacious and
+                            beautifully decorated, and the amenities exceeded our expectations. We can't wait to come
+                            back
+                            for another stay.</p>
+                          <div class="person">
+                            <img src="Untitled design (27).png" height="100px" width="100px">
+                            <h4 class="mt-2">Ashley Williams</h4>
+                            <div>
+                              <span class="stars">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-half-fill"></i>
+                            </div>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row justify-content-center">
+                    <div class="col-lg-8 bg-white">
+                      <div class="review p-5 text-center">
+                        <div class="quote-icon">
+                          <i class="ri-double-quotes-l" style="font-size: 70px;"></i>
+                          <p class="text-black">The hotel staff was incredibly attentive, the rooms were spacious and
+                            beautifully decorated, and the amenities exceeded our expectations. We can't wait to come
+                            back
+                            for another stay.</p>
+                          <div class="person">
+                            <img src="Untitled design (27).png" height="100px" width="100px">
+                            <h4 class="mt-2">Ashley Williams</h4>
+                            <div>
+                              <span class="stars">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-half-fill"></i>
+                            </div>
+
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+
+
+        </section>
+        <section id="blogpost">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 intro-text">
+                <h1 class="text-black">Our<span style="color: #f58d17;"> Blog Post</span></h1>
+                <p class="text-gray">Join us on a journey of gastronomic delights, where every dish tells a story of
+                  passion, creativity, and dedication to the art of cooking.</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                <div class="col p-4 d-flex flex-column position-static">
+                  <strong class="d-inline-block mb-2 text-primary-emphasis">Recipe</strong>
+                  <h3 class="mb-0">How to make Chicken roast?</h3>
+                  <div class="mb-1 text-body-secondary">April 23</div>
+                  <p class="card-text mb-auto">In a large mixing bowl, combine the minced meat, chopped onions, green
+                    chilies, minced garlic, minced ginger.</p>
+                  <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+                    Read more...
+                    <svg class="bi">
+                      <use xlink:href="#chevron-right"></use>
+                    </svg>
+                  </a>
+                </div>
+                <div class="col-auto d-none d-lg-block">
+                  <img
+                    src="https://img.freepik.com/free-photo/close-up-delicious-chicken-meal_23-2150741763.jpg?t=st=1713893415~exp=1713897015~hmac=6ea4578111e7cb9037728f533924c37ccf638e29e02b5c3e0f06e0f7d9ac795a&w=360"
+                    height="260px" width="230px">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                <div class="col p-4 d-flex flex-column position-static">
+                  <strong class="d-inline-block mb-2 text-success-emphasis">Recipe</strong>
+                  <h3 class="mb-0">How to make decision kabab?</h3>
+                  <div class="mb-1 text-body-secondary">April 23</div>
+                  <p class="mb-auto">In a large mixing bowl, combine the minced meat, chopped onions, green chilies,
+                    minced garlic, minced ginger.</p>
+                  <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+                    Read More...
+                    <svg class="bi">
+                      <use xlink:href="#chevron-right"></use>
+                    </svg>
+                  </a>
+                </div>
+                <div class="col-auto d-none d-lg-block">
+                  <img
+                    src="https://img.freepik.com/free-photo/side-view-lula-kebab-with-red-onions-sumakh-grilled-green-chili-peppers-wooden-board_140725-11481.jpg?t=st=1713892526~exp=1713896126~hmac=6435a9cc8123d8bd0df44f988b3b1b71bc38868cdeb5ecb49527332d45fa905e&w=360"
+                    height="260px" width="230px">
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="container">
+          <div class="row">
+            <div class="col-12 intro-text">
+              <h1>Our team members</h1>
+              <p>Our team comprises passionate professionals who bring diverse skill.We work collaboratively to deliver
+                impactful solutions tailored to your unique needs.</p>
+            </div>
+          </div>
+          <h1 class="text-center mb-4">Reservation Form</h1>
+          <div class="row ml-5">
+            <div class="container1 mr-5 ml-5">
+              <div class="row justify-content-center">
+                <form class="justify-content-center align-item-center">
+                  <div class="row g-3">
+                    <div class="col-md-5">
+                      <label for="your-name" class="form-label text-black">User Name</label>
+                      <input type="text" class="form-control" id="your-name" name="your-name" required>
+                    </div>
+                    <div class="col-md-5">
+                      <label for="your-surname" class="form-label text-black">Full Name</label>
+                      <input type="text" class="form-control" id="your-surname" name="your-surname" required>
+                    </div>
+                    <div class="col-md-5">
+                      <label for="your-email" class="form-label text-black">Your Email</label>
+                      <input type="email" class="form-control" id="your-email" name="your-email" required>
+                    </div>
+                    <div class="col-md-5">
+                      <label for="your-subject" class="form-label text-black">Your Subject</label>
+                      <input type="text" class="form-control" id="your-subject" name="your-subject">
+                    </div>
+                    <div class="col-10">
+                      <label for="your-message" class="form-label text-black">Your Message</label>
+                      <textarea class="form-control" id="your-message" name="your-message" rows="5" required></textarea>
+                    </div>
+                    <div class="col-12">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <button type="submit"
+                            class="btn1 btn btn-dark w-100 fw-bold ml-5 justify-content-center align-items-center">Send</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
